@@ -1,0 +1,8 @@
+word="artificial"
+ans=0
+for ch in word:
+    if ch=='a' or ch=='e' or ch=='i' or ch=='o' or ch=='u':
+        ans=ans+1
+
+print("Total", ans , "Vowels")
+
