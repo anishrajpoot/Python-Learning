@@ -6,3 +6,4 @@ for ch in word:
 
 print("Total", ans , "Vowels")
 
+ 
