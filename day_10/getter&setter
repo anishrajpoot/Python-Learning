@@ -1,0 +1,20 @@
+class Student:
+    def __init__(self, name):
+        self.__name = name
+
+    # Getter
+    def get_name(self):
+        return self.__name
+
+    # Setter
+    def set_name(self, name):
+        self.__name = name
+
+# Creating object
+s = Student("Anish")
+
+print(s.get_name())    # Anish
+
+s.set_name("Rahul")
+print(s.get_name())    # Rahul
+
